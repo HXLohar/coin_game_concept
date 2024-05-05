@@ -1,0 +1,4 @@
+STEP 1 (ongoing)
+Add some graphics
+Implement single spin function
+Implement "Fire in the Hole" feature spins (Guaranteed "Fire in the Hole")

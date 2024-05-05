@@ -1,0 +1,74 @@
+Idea from Le Bandit (Hacksaw)
+Some memes (Fire in the Hole, Water on the Hill) from Geometry Dash
+Sound from internet
+Image from mspaint and/or chat gpt
+A slot with a main reel area of 6x5 plus an extra reel 6x1.
+
+==== MAIN REEL ====
+The following symbols might appear:
+BLANK
+Nothing happens.
+BONUS / SCATTER
+Land 2 = They convert into oil barrels.
+Land 3 or more = Free Spins
+OIL BARREL
+As you might guess, this one contains oil.
+Regular Barrel: spread 0-2 blocks.
+Big Barrel: x2-x4 multiplier, then spread 0-3 blocks.
+Mega Barrel: x5-x20 multiplier, then spread 1-4 blocks.
+Giga Barrel: x25-x100 multiplier, then spread 2-5 blocks.
+Oil cannot spread onto other barrels or scatters.
+Multiple barrel spread onto a single block will add +1x that block's multiplier each time.
+
+==== EXTRA REEL ====
+The following symbols might appear:
+FIRE IN THE HOLE
+Detonates all oil blocks on the ground, which will trigger a coin flip feature.
+WATER ON THE HILL
+All oil blocks below it will have their multiplier halved, rounded down.
+Oil blocks without a multiplier will be wiped out.
+Oil barrels are unaffected.
+RESPIN
+All blank symbols on main reel respin.
+BONUS / SCATTER (BONUS ONLY)
++2 spins as well as bonus upgrade (if possible)
+==== COIN FLIP ====
+All oil blocks will reveal one of the following object:
+--- COINS ---
+$H!T coins: 0.1-0.5
+Bronze coins: 1-3
+Silver coins: 5-25
+Golden coins: 50-2500
+Coin value will be multiplied by the oil multiplier.
+--- DYNAMITE ---
+All affected coins, as well as activated jars, will get their value multiplied.
+Possible multipliers: x2, x3, x4, x5, x10, x20
+Possible affected area: 33% Vertical, 33% Horizontal, 33% Adjacent, 1% Full Screen.
+Dynamite multiplier will be multiplied by the oil multiplier.
+--- JAR ---
+Upon activation, collect all other coins and activated jars.
+Then those blocks will retrigger another coin flip. Jars will remain on the board, as well as multipliers from the oil will be disabled.
+Total collected value will be multiplied by the oil multiplier.
+
+==== BONUS ====
+--- Bonus 3S ---
+6 Spins
+Oil blocks remain until detonates.
+At least 1 "Fire in the Hole" guaranteed during the bonus.
+--- Enhanced Bonus 4S ---
+(All features from lower level included)
+8 Spins
+Oil blocks won't disappear after detonation. Only their multipliers reset upon detonation.
+All coins will be Bronze or better.
+At least 2 "Fire in the Hole" guaranteed during the bonus.
+--- Premium Bonus 5S ---
+(All features from lower level included)
+10 Spins
+"Water on the Hill" won't appear.
+Multipliers on oil blocks won't reset upon detonation.
+At least 3 "Fire in the Hole" guaranteed during the bonus.
+--- SUPER Bonus 6S
+(All features from lower level included)
+12 Spins
+All coins will be Silver or better.
+Guaranteed "Fire in the Hole" every spin!
