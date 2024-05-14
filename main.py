@@ -21,9 +21,8 @@ class frame_block:
         # 使用Label显示图片
         label = tkinter.Label(self.frame, image=photo)
         label.image = photo  # 保持对图片的引用
-        label.pack(fill='both', expand=True)  # 填充整个Frame
-
-
+        label.pack(fill='both', expand=True)
+        print("IMG FRAME UPDATED")
 
 class profile:
     def __init__(self):
@@ -71,7 +70,7 @@ class interface:
         self.rounds_label = tkinter.Label(self.root, text="Manual")
         self.rounds_label.place(x=400, y=120)
 
-        self.one_round_button = tkinter.Button(self.root, text="1 Round")
+        self.one_round_button = tkinter.Button(self.root, text="1 Round", command=lambda: self.init_spin())
         self.one_round_button.place(x=400, y=145, width=100, height=30)
 
         self.auto_label = tkinter.Label(self.root, text="Auto: not started..")
@@ -91,15 +90,12 @@ class interface:
         # TODO
         # 调整元素的位置和大小, 使得看起来更恰当.
         self.task_dictionary = {
-            'spin_reel': self.round.spin,
+            'spin_reel': self.spin_and_update_img,
             '2_scatter_transform': self.round.convert_scatters,
             'test': self.test_print
         }
         self.update_symbol_images()
-        self.add_task(["test", 500, "01"])
-        self.add_task(["test", 500, "02"])
-        self.add_task(["test", 500, "0003"])
-        self.do_next_task()
+
         self.root.mainloop()
 
 
@@ -138,15 +134,24 @@ class interface:
     def add_emergency_task(self, new_task):
         self.task_list.insert(0, new_task)
 
-    def spin(self):
+    def init_spin(self):
+        print("SPIN BUTTON PRESSED")
         self.round.reset_board()
-        for i in range(0, 6):
-            self.add_task(["spin_reel", 175, i])
+        for i in range(0, 4):
+            self.add_task(["spin_reel", 650, i])
         self.add_task(["2_scatter_transform", 225])
         self.add_task(["spread_oil", 225])
         self.add_task(["water_on_the_hill", 225])
         self.add_task(["fire_in_the_hole", 225])
-
+        # print(f"DEBUG: task list is{self.task_list}")
+        self.do_next_task()
+    def spin_and_update_img(self, reel_id):
+        self.round.spin(reel_id)
+        col = reel_id
+        for row in range(0, 6):
+            self.frameblock[col * 6 + row].update_frame_img()
+        self.root.update_idletasks()
+        self.root.update()
 
 this_interface = interface()
 

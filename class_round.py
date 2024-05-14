@@ -1,5 +1,6 @@
 import random
-
+import os
+dir_path = os.path.dirname(os.path.realpath(__file__))
 class block:
     def __init__(self, x=-1, y=-1, is_on_extra_reel = False):
         self.is_extra = is_on_extra_reel
@@ -11,9 +12,13 @@ class block:
         self.coinflip_symbol_extra_info = 0
         self.coinflip_base_value = 0
         self.oil_multiplier = 1
+        self.appeared = False
 
     def get_image(self):
-        return ""
+        if self.appeared:
+            return dir_path + "\\image\\test.png"
+        else:
+            return dir_path + "\\image\\blank.png"
 
     def get_text(self):
         return ""
@@ -32,8 +37,14 @@ class board:
     def find_block(self, column, row):
         return self.blocks[column * 6 + row]
     def reset_board(self):
-        pass
-
+        for obj in self.blocks:
+            obj.regular_symbol = ""
+            obj.regular_symbol_extra_info = 0
+            obj.coinflip_symbol = ""
+            obj.coinflip_symbol_extra_info = 0
+            obj.coinflip_base_value = 0
+            obj.oil_multiplier = 1
+            obj.appeared = False
 
 class round:
     def __init__(self, base_bet=1.0, extra_option="", tc_multiplier = 1.0):
@@ -48,7 +59,10 @@ class round:
     def reset_board(self):
         self.board.reset_board()
     def spin(self, reel_id):
-        pass
+        print(f"DEBUG: ROUND.SPIN ({reel_id}) called")
+        for i in range(0, 6):
+            affected_block = self.board.find_block(reel_id, i)
+            affected_block.appeared = True
 
     def convert_scatters(self):
         # 将 S 转换为 油桶

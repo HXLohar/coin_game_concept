@@ -1,4 +1,39 @@
 STEP 1 (ongoing)
 Add some graphics
 Implement single spin function
-Implement "Fire in the Hole" feature spins (Guaranteed "Fire in the Hole")
+Implement questionable explosive feature spins (Guaranteed "Fire in the Hole")
+
+STEP 2
+Implement all super spins option:
+-- questionable explosive mode
+Guaranteed "Fire in the Hole"
+However only ~40% chance of getting one or more oil barrels.
+-- guaranteed to detonate mode
+Guaranteed "Fire in the Hole", plus 2 oil barrels.
+-- premium explosion mode
+Guaranteed "Fire in the Hole", plus 3 oil barrels.
+No $H!T coins will appear.
+-- deluxe explosion mode
+Guaranteed "Fire in the Hole", plus 4 oil barrels, including 1 barrel that will be at least a big one.
+Guaranteed to get 1 Dynamite in the first coin flip feature.
+No $H!T coins will appear.
+-- mega explosion bundle mode
+Guaranteed "Fire in the Hole", plus 5 oil barrels, including 2 barrels that will be at least a big one.
+Guaranteed to get 2 Dynamites and a Pot in the first coin flip feature.
+No $H!T coins and "Water on the Hill" will appear.
+
+STEP 3
+Implement Bonus Buys
+
+STEP 4
+Implement printer mode
+Let the program run (big number of your choice) of super spins / bonus rounds, and save all the information in a csv file, plus some summary.
+
+STEP ???
+Implement base spin that's somewhat playable
+Need to try to balance some math, idk, this is my first attempt on doing such things.
+
+STEP ???
+Rebalance the math of super spins and bonus rounds, plus implement a reasonable max win with at reasonable frequency.
+
+
