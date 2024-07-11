@@ -49,6 +49,9 @@ Dynamite multiplier will be multiplied by the oil multiplier.
 Upon activation, collect all other coins and activated jars.
 Then those blocks will retrigger another coin flip. Jars will remain on the board, as well as multipliers from the oil will be disabled.
 Total collected value will be multiplied by the oil multiplier.
+==== EXTRA BET ====
+Total Cost 15x:
+
 
 ==== BONUS ====
 --- Bonus 3S ---

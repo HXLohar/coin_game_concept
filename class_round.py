@@ -11,15 +11,18 @@ class block:
         self.coinflip_symbol = ""
         self.coinflip_symbol_extra_info = 0
         self.coinflip_base_value = 0
-        self.oil_multiplier = 1
+
         self.appeared = False
 
     def get_image(self):
-        if self.appeared:
-            return dir_path + "\\image\\test.png"
+        if not self.appeared:
+            return os.path.join(dir_path, "image", "blank.png")
+        elif self.regular_symbol == "oil":
+            return os.path.join(dir_path, "image", "oil_splash.png")
+        elif self.regular_symbol == "":
+            return os.path.join(dir_path, "image", "test.png")
         else:
-            return dir_path + "\\image\\blank.png"
-
+            return os.path.join(dir_path, "image", f"{self.regular_symbol}.png")
     def get_text(self):
         return ""
 
