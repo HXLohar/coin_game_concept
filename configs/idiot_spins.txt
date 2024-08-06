@@ -1,0 +1,9 @@
+# config: idiot spins
+# idiot spins have 7 possible outcomes, being 0-7 scatters
+# bonus freq of each bonus will be determined by the bonus value and rtp allocated onto the bonus, divided by (100%-fee%)/100%.
+# the rtp of idiot spin is significantly lower than other options. 
+idiot_fee_percentage = 10
+3s_allocation = 74.15
+4s_allocation = 21.65
+5s_allocation = 3.75
+6s_allocation = 0.45

@@ -55,23 +55,18 @@ Total Cost 15x:
 
 ==== BONUS ====
 --- Bonus 3S ---
-6 Spins
+5 Spins
 Oil blocks remain until detonates.
 At least 1 "Fire in the Hole" guaranteed during the bonus.
---- Enhanced Bonus 4S ---
-(All features from lower level included)
-8 Spins
-Oil blocks won't disappear after detonation. Only their multipliers reset upon detonation.
-All coins will be Bronze or better.
-At least 2 "Fire in the Hole" guaranteed during the bonus.
---- Premium Bonus 5S ---
-(All features from lower level included)
-10 Spins
-"Water on the Hill" won't appear.
-Multipliers on oil blocks won't reset upon detonation.
-At least 3 "Fire in the Hole" guaranteed during the bonus.
---- SUPER Bonus 6S
-(All features from lower level included)
-12 Spins
-All coins will be Silver or better.
-Guaranteed "Fire in the Hole" every spin!
+If bonus triggered with more than 3S, Scatter #4 to #6 will transform into one of the symbols below (no duplicates):
+The amount of initial spins is also increased by 1 for every scatter beyond the 3rd one.
+
+Landing any of the following symbols will award +1 spin for each. Such symbols will be sticky for the rest of the bonus.
+Golden Fire in the Hole:
+Fire in the Hole feature will be activated every spin.
+Silver & Gold coin:
+All coins will either be silver or gold quality.
+No Water:
+Water on the Hill won't appear.
+Oil recycling:
+Oil won't disappear after detonation.

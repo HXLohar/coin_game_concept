@@ -1,0 +1,6 @@
+# config: bonus value
+# determines the sale price of each bonus
+value_3s = 72
+value_4s = 240
+value_5s = 760
+value_6s = 2850
